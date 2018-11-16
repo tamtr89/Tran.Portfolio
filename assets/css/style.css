@@ -2,16 +2,13 @@
 
 .skills-area{
     margin: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 img {
     width: 6rem;
     height: auto;
-    justify-items: stretch;
+    margin: 1rem;
 }
-.icon {
-    align-items: center;
-}
-.skill-row {
-    justify-content: space-evenly;
-}
+
