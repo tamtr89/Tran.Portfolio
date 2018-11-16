@@ -23,6 +23,8 @@ body {
 }
 
 /* NAVBAR */
+
+
 nav::after {
     content: "";
     clear: both;
@@ -53,6 +55,7 @@ nav::after {
       color: white;
       font-size: 2rem;
   }
+
 /* END NAVBAR */
 
 /* PORTFOLIO AREA */

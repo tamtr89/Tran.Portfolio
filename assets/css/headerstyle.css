@@ -2,12 +2,12 @@
 
 
 .header {
+    
     height: 95vh; 
     background-image: url(../images/main1280x960.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
-    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
     clip-path: polygon(100% 0, 100% 83%, 78% 90%, 30% 83%, 0 90%, 0 0);
 }
  /* ==== */
