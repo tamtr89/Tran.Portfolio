@@ -1,14 +1,25 @@
 
-
 .skills-area{
     margin: 2rem;
     padding: 1rem;
     text-align: center;
 }
 
+/* .abt-left-thumb{
+    
+} */
+
 img {
     width: 6rem;
     height: auto;
     margin: 1rem;
+    margin-left: 35px;
 }
 
+.prt-item {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-block-start: 1.5em;
+    margin-block-end: 1rem;
+    /* margin-inline-start: 1rem; */
+}
