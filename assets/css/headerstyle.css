@@ -1,66 +1,9 @@
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 
-/* 10px = 1rem (it's good for mobile responsive)*/
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    /* font-size: 16px; */
-    line-height: 1.7;
-    color: #777;
-    padding: 2rem;
-    box-sizing: border-box;
-    background-color: rgb(0, 49, 61);
-}
-
-/* NAVBAR */
-nav::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .navigation {
-    list-style: none;
-    float: right;
-    margin-top: 4rem;
-  }
-
-  .navigation li {
-    display: inline;
-    margin-left: 3rem;
-  }
-
-  .navigation li:first-child {
-    margin: 0;
-  }
-
-  .navigation li a:link {
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
-  a{
-      color: white;
-      font-size: 2rem;
-  }
-/* END NAVBAR */
 
 .header {
     height: 95vh; 
-    background-image: linear-gradient(to right bottom, 
-    #fcf28d77, #e9861670), 
-    url(../images/main1280x960.jpg);
+    background-image: url(../images/main1280x960.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -68,16 +11,12 @@ nav::after {
     clip-path: polygon(100% 0, 100% 83%, 78% 90%, 30% 83%, 0 90%, 0 0);
 }
  /* ==== */
- .svg_brown svg {
-    fill:  #fce28d77;
-    width: 101%;
-}
+
 svg:not(:root){
     overflow: hidden;
 }
-
 .svg_yellow svg {
-    fill:#e9861670;
+    fill: #ffa929d7;
     width: 101%;
 }
 
@@ -174,6 +113,8 @@ svg:not(:root){
         transform: translate(0);
     }
 }
+
+
 
 .btn:link,
 .btn:visited {
