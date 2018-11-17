@@ -16,47 +16,49 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.863);
-    padding: 2rem;
+    /* padding: 2rem; */
     box-sizing: border-box;
-    /* background-color: rgb(2, 46, 59); */
-    background-color: rgb(15, 15, 15);
+    background-color: rgba(15, 15, 15);
+}
+
+.fab {
+    color: white;
+}
+.header-area{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background: linear-gradient(to right bottom, 
+    #6fd5bf, rgb(6, 53, 85));
+}
+.logo a{
+    display: inline-block;
+    padding: 0;
 }
 
 /* NAVBAR */
-
-
-nav::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .navigation {
-    list-style: none;
-    float: right;
-    margin-top: 4rem;
-  }
-
-  .navigation li {
-    display: inline;
-    margin-left: 3rem;
-  }
-
-  .navigation li:first-child {
-    margin: 0;
-  }
-
-  .navigation li a:link {
+.main-menu nav ul{
+    text-align: right;
+}
+.main-menu nav ul li{
+    display: inline-block;
+}
+.main-menu nav ul li a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    padding: 0 1rem;
+    position: relative;
+}
+.navigation li a:link {
     text-decoration: none;
     text-transform: uppercase;
-  }
+}
 
-  a{
-      color: white;
-      font-size: 2rem;
-  }
-
-/* END NAVBAR */
 
 /* PORTFOLIO AREA */
 .skills-area{
@@ -75,13 +77,13 @@ img {
 .icon {
     padding: .5rem;
     /* background-color: rgba(6, 53, 85, 0.555); */
-    background: linear-gradient(to right bottom, 
+    /* background: linear-gradient(to right bottom, 
      rgba(16, 202, 202, 0.555), #505050de);
-    border-radius: 1.2rem;
+    border-radius: 1.2rem; */
 }
 
 .prt-item {
-    padding: 1rem;
+    padding: .5rem;
     /* background-color: rgba(105, 105, 105, 0.466); */
     background: linear-gradient(to right bottom, 
     #6fd5bfde, rgba(6, 53, 85, 0.555));
@@ -101,9 +103,11 @@ img {
 /* CONTACT AREA */
 .contact-area {
     position: relative;
+    border-top: 2px solid grey;
 }
 .contact-area
 .section-tittle {
+    margin-top: 3rem;
     margin-bottom: 6rem;
 }
 .cnt-left ul li {
@@ -113,6 +117,7 @@ img {
     line-height: 2.3rem;
     margin-bottom: 1.3rem;
     font-weight: 500;
+    margin-left: 2rem;
 }
 .cnt-left ul li span {
     display: block;
@@ -124,7 +129,7 @@ img {
 .cnt-form form textarea {
     height: 34px;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     border: none;
     border-bottom: 1px solid #dddddd;
     margin-bottom: 2rem;
@@ -136,7 +141,7 @@ img {
 }
 .cnt-form form button {
     background: whitesmoke;
-    color: #222;
+    /* color: #222; */
     border: none;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -146,6 +151,12 @@ img {
     outline: none;
 }
 
+.cnt-form form textarea{
+   height: 87px;
+}
+.cnt-form form .form-submit{
+   text-align: right;
+}
 .cnt-form form button i {
     margin-left: .8rem;
     -webkit-transition: all 0.3s ease 0s;
@@ -159,3 +170,31 @@ img {
     -o-transform: translateY(-.5rem);
     transform: translateY(-.5rem);
 }
+
+/* FOOTER */
+.footer-area{
+    padding: 18px 0px;
+    position: relative;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.copyright p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #898989;
+}
+
+.ft-logo a img{
+    max-width: 50px;
+}
+
+.copyright p span{
+    display: inline-block;
+    color: rgb(37, 136, 153);
+ }
+ 
+ 

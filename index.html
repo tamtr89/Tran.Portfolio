@@ -21,66 +21,58 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-12">
-                        <div class="header__logo">
-                            <a href="index.html">
-                                <div class="header__logo-box">
-                                    <img src="assets/images/tam-logo (2).png" style="width: 100px; height:100px;" alt="Logo" class="header__logo">
-                                </div>
-                            </a>
-                        </div>
+    <header>
+        <div class="header-area">
+            <!-- <div class="container"> -->
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-12">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/tamlogoblack.png" style="width: 60px; height:60px;" alt="Logo">
+                        </a>
                     </div>
-                    <!--End first column-->
-
-                    <div class="col-md-9 d-none d-md-block">
-                        <div class="main-menu">
-                            <nav class="nav-menu">
-                                <ul class="navigation" id="nav_menu">
-                                    <li class="active"><a data-hover="home" href="#home"><span>Home</span></a></li>
-                                    <li><a data-hover="about" href="#about"><span>About</span></a></li>
-                                    <li><a data-hover="portfolio" href="#portfolio"><span>Portfolio</span></a></li>
-                                    <li><a data-hover="contact" href="#contact"><span>Contact</span></a></li>
-                                </ul>
-                            
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 d-block d-md-none">
-                        <div class="responsive-menu-warp"></div>
-                    </div>
-                    <!--End Second col-->
                 </div>
-                <!--End row-->
+                <!--End first column-->
+
+                <div class="col-md-9 d-none d-md-block">
+                    <div class="main-menu">
+                        <nav class="nav-menu">
+                            <ul class="navigation" id="nav_menu">
+                                <li class="active"><a data-hover="home" href="#top"><span>Home</span></a></li>
+                                <li><a data-hover="about" href="#about"><span>About</span></a></li>
+                                <li><a data-hover="portfolio" href="#portfolio"><span>Portfolio</span></a></li>
+                                <li><a data-hover="contact" href="#contact"><span>Contact</span></a></li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-sm-12 d-block d-md-none">
+                    <div class="responsive-menu-warp"></div>
+                </div>
+                <!--End Second col-->
             </div>
+            <!--End row-->
+            <!-- </div> -->
             <!--End container-->
-        </div>
-
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">I'mTamTran</span>
-                <span class="heading-primary--sub">WebDeveloper</span>
-            </h1>
-
-            <!-- <a href="index.html" class="btn btn--white btn--animated">Discover my page<i class="fa fa-question-circle"></i></a> -->
         </div>
     </header>
     <!-- End header Area -->
-    <!-- <section>
+    <section>
         <div class="container">
-            <div class="svg_brown">
-                <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
-                    <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
-                </svg>
+            <div class="slider-content">
+                <div class="header__text-box">
+                    <h1 class="heading-primary">
+                        <span class="heading-primary--main">I'mTamTran</span>
+                        <span class="heading-primary--sub">WebDeveloper</span>
+                    </h1>
+                    <a href="index.html" class="btn btn--white btn--animated">Discover my page<i class="fa fa-question-circle"></i></a>
+                </div>
             </div>
         </div>
-    </section> -->
-
+    </section>
     <!-- SECTION ABOUT ME -->
-    <section class="about-area" id="about">
+    <div class="about-area" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
@@ -116,14 +108,15 @@
                 <!--END col-md-7-->
             </div>
             <!--END row-align-->
+            <div class="svg_yellow">
+                <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                    <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
+                </svg>
+            </div>
         </div>
         <!--END Container-->
-        <div class="svg_yellow">
-            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
-                <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
-            </svg>
-        </div>
-    </section>
+
+    </div>
 
     <!--SKILLS AREA -->
     <!-- <section> -->
@@ -160,7 +153,7 @@
     <!--END skills-area-->
 
     <!-- PORTFOLIO AREA -->
-    <section class="portfolio-area" id="portfolio">
+    <div class="portfolio-area" id="portfolio">
         <div class="container">
             <div class="section-tittle">
                 <h2 class="txt_show">My Portfolio</h2>
@@ -221,17 +214,17 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="svg_green">
+                <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                    <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
+                </svg>
+            </div> -->
         </div>
         <!--END container-->
-        <div class="white_svg svg_white">
-            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
-                <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
-            </svg>
-        </div>
-    </section>
-
+    </div>
+    <hr>
     <!-- CONTACT AREA -->
-    <section class="contact-area" id="contact">
+    <div class="contact-area" id="contact">
         <div class="container">
             <div class="section-tittle">
                 <h2 class="txt_show">Get in touch</h2>
@@ -282,37 +275,22 @@
             <!--END row-->
         </div>
         <!--END container-->
-    </section>
+    </div>
 
     <!-- FOOTER AREA -->
     <footer>
         <div class="footer-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-sm-4">
-                        <div class="ft-logo">
-                            <!-- <a href="index.html"><img src="" alt="logo"></a> -->
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-8">
+                    <div class="col-md-12 col-sm-12">
                         <div class="copyright">
                             <p>@Copyright By <span>Tran.2018</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="go-to-top">
-                    <a href="#top"><i class="fal fa-angle-up"></i></a>
-                </div>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
 
     <!-- ===========================================JAVA LINKS================================================================== -->
     <!-- BS Java, jQuery Links -->
