@@ -15,10 +15,10 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.863);
+    color: beige;
     /* padding: 2rem; */
     box-sizing: border-box;
-    background-color: rgba(15, 15, 15);
+    background-color: rgb(1, 36, 41);
 }
 
 .fab {
@@ -93,8 +93,18 @@ img {
     /* margin-inline-start: 1rem; */
 }
 
+h3 {
+    text-align: center;
+    padding: .5rem;
+    background-color: rgba(255, 228, 196, 0.671);
+   color: black;
+   border-radius: 1rem;
+}
+
+
 .txt_show {
     font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
 }
 .txt-wrap {
     font-size: 1.8rem;
@@ -111,7 +121,7 @@ img {
     margin-bottom: 6rem;
 }
 .cnt-left ul li {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: whitesmoke;
     letter-spacing: 0;
     line-height: 2.3rem;
