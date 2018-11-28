@@ -16,4 +16,40 @@
     .about-area {
         padding: 9rem 0rem 8rem;
     }
+
+    .portfolio-area {
+        padding: 8rem 0rem 5rem;
+    }
+
+    .contact-area {
+        padding: 8rem 0rem 3rem;
+    }
+
+    .social-link a.btn{
+        padding: 1rem;
+        margin: .3rem;
+    }
+
+    .prt-item a img{
+        width: 2.5rem;
+        margin-left: 0;
+    }
+}
+
+/* Small Mobile :320px */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .header-area{
+        padding: 1rem 0rem .3rem;
+        margin-right: 2rem;
+    }
+    .prt-item a img{
+        width: 2rem;
+        margin-left: 0;
+    }
+    .section-tittle h2 {
+        margin-top: 3rem;
+    }
 }

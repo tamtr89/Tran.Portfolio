@@ -39,30 +39,23 @@ body {
 }
 
 /* NAVBAR */
-.main-menu nav ul{
-    text-align: right;
-}
-.main-menu nav ul li{
-    display: inline-block;
-}
-.main-menu nav ul li a{
+
+#nav-style {
     display: block;
     color: #fff;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0;
     padding: 0 1rem;
-    position: relative;
-}
-.navigation li a:link {
     text-decoration: none;
     text-transform: uppercase;
 }
 
-/* ABOUT AREA */
 
+
+/* ABOUT AREA */
 .about-area {
-    padding: 1rem 0rem 15rem;
+    padding: 1rem 0rem 5rem;
 }
 
 .abt-left-thumb{
@@ -97,6 +90,7 @@ body {
     margin-bottom: 5rem;
     padding-bottom: 1.6rem;
     position: relative;
+    margin-top: 3rem;
 }
 
 .section-tittle h2:before{
@@ -120,7 +114,7 @@ body {
 }
 
 .abt-content p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0;
     margin-bottom: 2rem;
@@ -143,8 +137,7 @@ body {
 /* SKILLS AREA */
 
 .skills-area{
-    margin: 2rem;
-    padding: 1rem;
+    padding: 1rem 0rem 5rem;
     text-align: center;
 }
 
@@ -152,7 +145,7 @@ img {
     width: 5rem;
     height: auto;
     margin: 1rem;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 }
 
 .icon {
@@ -199,9 +192,6 @@ h3 {
    color: black;
    border-radius: 1rem;
 }
-
-
-
 
 /* CONTACT AREA */
 .contact-area {
