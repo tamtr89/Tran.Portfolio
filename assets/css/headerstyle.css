@@ -110,13 +110,11 @@ svg:not(:root){
     }
 }
 
-
-
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1rem 3rem;
+    padding: 1rem 2.2rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all .2s;
@@ -126,7 +124,7 @@ svg:not(:root){
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    box-shadow: 0 1rem 1.5rem rgba(34, 109, 122, 0.2);
 }
 
 .btn:active {

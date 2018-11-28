@@ -59,8 +59,89 @@ body {
     text-transform: uppercase;
 }
 
+/* ABOUT AREA */
 
-/* PORTFOLIO AREA */
+.about-area {
+    padding: 1rem 0rem 15rem;
+}
+
+.abt-left-thumb{
+    display: block;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0rem 0rem 2.1rem grey;
+}
+
+.abt-letf-thumb:before{
+    content: '';
+    position: absolute;
+    right: -4.5rem;
+    left: -4.5rem;
+    border: .2rem solid white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 0rem 0rem 3rem 0rem;
+}
+
+.abt-left-thumb img{
+    border-radius: .4rem;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.section-tittle h2{
+    font-size: 2.9rem;
+    letter-spacing: 0;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+    padding-bottom: 1.6rem;
+    position: relative;
+}
+
+.section-tittle h2:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: grey;
+}
+
+.section-tittle h2:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 255px;
+    background-color: grey;
+}
+
+.abt-content p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-bottom: 2rem;
+}
+
+.social-link{
+    display: inline-block;
+    margin-top: 1.1rem;
+}
+.social-link h5{
+    display: inline-block;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #6fd5bf;
+    border-bottom: 1px solid #6fd5bf;
+    margin-right: 1.6rem;
+}
+
+/* SKILLS AREA */
+
 .skills-area{
     margin: 2rem;
     padding: 1rem;
@@ -82,18 +163,36 @@ img {
     border-radius: 1.2rem; */
 }
 
+/* PORTFOLIO AREA */
+.portfolio-area {
+    position: relative;
+}
 .prt-item {
     padding: .5rem;
-    /* background-color: rgba(105, 105, 105, 0.466); */
     background: linear-gradient(to right bottom, 
     #6fd5bfde, rgba(6, 53, 85, 0.555));
-    margin-block-start: 1.5em;
-    margin-block-end: 1rem;
+    /* margin-block-start: 1.5em; */
+    /* margin-block-end: 1rem; */
+    margin-bottom: 3rem;
     border-radius: 1.2rem;
-    /* margin-inline-start: 1rem; */
+}
+
+.prt-item a {
+    display: block;
+}
+
+.prt-item a.expand-img {
+    position: relative;
+    z-index: 1;
+}
+
+.prt-item a img {
+    max-width: 100%;
+    display: inline-block;
 }
 
 h3 {
+    position: relative;
     text-align: center;
     padding: .5rem;
     background-color: rgba(255, 228, 196, 0.671);
@@ -102,13 +201,7 @@ h3 {
 }
 
 
-.txt_show {
-    font-size: 3rem;
-    font-family: 'Oswald', sans-serif;
-}
-.txt-wrap {
-    font-size: 1.8rem;
-}
+
 
 /* CONTACT AREA */
 .contact-area {

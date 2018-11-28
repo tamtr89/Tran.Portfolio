@@ -1,0 +1,19 @@
+@media screen and (min-width: 1366px) and (max-width: 1919px){}
+
+/* Normal Desktop */
+@media (min-width: 992px) and (max-width: 1197px){
+    .slider-content{
+        width: 619px;
+    }
+}
+
+/* Normal Desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-content{
+        height: 480px;
+    }
+
+    .about-area {
+        padding: 9rem 0rem 8rem;
+    }
+}
