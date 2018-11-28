@@ -13,7 +13,7 @@ section {
 svg:not(:root){
     overflow: hidden;
 }
-.svg_yellow svg {
+.svg_grey svg {
     fill: #424747a8;
     width: 101%;
 }

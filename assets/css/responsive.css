@@ -18,7 +18,7 @@
     }
 
     .portfolio-area {
-        padding: 8rem 0rem 5rem;
+        padding: 0rem 0rem 5rem;
     }
 
     .contact-area {
@@ -36,8 +36,17 @@
     }
 }
 
+
+
 /* Small Mobile :320px */
 @media (max-width: 767px) {
+    .section {
+        width: 100%;
+        
+    }
+    .header__text-box{
+    top: 53%;
+    }
     .container {
         width: 100%;
     }
@@ -51,5 +60,50 @@
     }
     .section-tittle h2 {
         margin-top: 3rem;
+    }
+    .svg_grey svg{
+        margin-top: 1.5rem;
+    }
+}
+
+/* Large Mobile 480px */
+/* @media only screen and (min-width: 480px) and (max-width: 767px){
+    .about-area{
+        padding: 8rem 0 6rem;
+    }
+} */
+
+/* iPhone X */
+@media (min-width: 240px) and (max-width: 479px) {
+    .header-area {
+        padding: 0;
+        width: 56%;
+    }
+    .header__text-box{
+        width: 100%;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+    .abt-left-thumb{
+        padding: 2rem;
+    }
+    .abt-content{
+        padding: 2rem 1rem 0 0;
+    }
+  
+    .skills-area{
+        padding-right: 2rem;
+    }
+    .portfolio-area{
+        padding: 2rem 0rem 5rem;
+        margin-right: 2rem;
+    }
+    .cnt-form{
+        width: 90%;
+        padding: 2rem;
+    }
+    .footer-area{
+        padding: 1.8rem;
+        margin-right: 2rem;
     }
 }
