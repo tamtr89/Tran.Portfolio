@@ -53,7 +53,6 @@ body {
 }
 
 
-
 /* ABOUT AREA */
 .about-area {
     padding: 1rem 0rem 5rem;
@@ -167,15 +166,13 @@ img {
 }
 
 /* PORTFOLIO AREA */
-.portfolio-area {
+/* .portfolio-area {
     position: relative;
 }
 .prt-item {
     padding: .5rem;
     background: linear-gradient(to right bottom, 
     #6fd5bfde, rgba(6, 53, 85, 0.555));
-    /* margin-block-start: 1.5em; */
-    /* margin-block-end: 1rem; */
     margin-bottom: 3rem;
     border-radius: 1.2rem;
 }
@@ -201,7 +198,7 @@ h3 {
     background-color: rgba(255, 228, 196, 0.671);
    color: black;
    border-radius: 1rem;
-}
+} */
 
 
 /* CONTACT AREA */
