@@ -72,8 +72,10 @@
     background-size: cover;
     height: 23rem;
     background-blend-mode: screen;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+    -webkit-clip-path: polygon(100% 0, 100% 92%, 51% 70%, 0 92%, 0% 0%);
+    clip-path: polygon(100% 0, 100% 92%, 51% 70%, 0 92%, 0% 0%);
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);  */
 }
 
 /* CARD IMAGES */

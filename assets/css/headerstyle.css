@@ -47,8 +47,8 @@ svg:not(:root){
     font-size: 5rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
+    animation-name: moveFocus;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
     
     /* animation-iteration-count: 2; */
@@ -63,7 +63,7 @@ svg:not(:root){
     animation: moveInRight 3s ease-out;
 }
 
-@keyframes moveInLeft {
+/* @keyframes moveInLeft {
     0% {
         opacity: 0;
         transform: translateX(10rem);
@@ -81,7 +81,7 @@ svg:not(:root){
         opacity: 1;
         transform: translate(0);
     }
-}
+} */
 
 @keyframes moveInRight {
     0% {
@@ -109,6 +109,24 @@ svg:not(:root){
         transform: translate(0);
     }
 }
+
+@keyframes moveFocus {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
 
 .btn:link,
 .btn:visited {
