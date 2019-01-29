@@ -165,40 +165,7 @@ img {
     border-radius: 1.2rem; */
 }
 
-/* PORTFOLIO AREA */
-/* .portfolio-area {
-    position: relative;
-}
-.prt-item {
-    padding: .5rem;
-    background: linear-gradient(to right bottom, 
-    #6fd5bfde, rgba(6, 53, 85, 0.555));
-    margin-bottom: 3rem;
-    border-radius: 1.2rem;
-}
 
-.prt-item a {
-    display: block;
-}
-
-.prt-item a.expand-img {
-    position: relative;
-    z-index: 1;
-}
-
-.prt-item a img {
-    max-width: 100%;
-    display: inline-block;
-}
-
-h3 {
-    position: relative;
-    text-align: center;
-    padding: .5rem;
-    background-color: rgba(255, 228, 196, 0.671);
-   color: black;
-   border-radius: 1rem;
-} */
 
 
 /* CONTACT AREA */
