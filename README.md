@@ -6,7 +6,7 @@ Hey there! I'm a full-stack developer who enjoys working at the intersection of 
 
 <h1>Thank you!
 
-## Contact :simple_smile:
+## Contact
 
 Reach out to me at one of the following places!
 
