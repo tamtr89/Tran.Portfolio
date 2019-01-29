@@ -28,13 +28,12 @@
     perspective: 100rem;
     -moz-perspective: 100rem;
     position: relative;
-    height: 40rem;
-    margin-bottom: 15px;
-    
+    height: 38rem;
+    margin-bottom: 15px;  
 }
 
 .card__side {
-    height: 40rem;
+    height: 38rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -61,7 +60,7 @@
 }
 
 .card:hover .card__side--front {
-    transform: rotateY(-180deg);
+    transform: rotateY(-180deg);   
 }
 
 .card:hover .card__side--back {
@@ -72,8 +71,8 @@
     background-size: cover;
     height: 23rem;
     background-blend-mode: screen;
-    -webkit-clip-path: polygon(100% 0, 100% 92%, 51% 70%, 0 92%, 0% 0%);
-    clip-path: polygon(100% 0, 100% 92%, 51% 70%, 0 92%, 0% 0%);
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);  */
 }
@@ -121,8 +120,8 @@
     color: #fff;
     position: absolute;
     top: 12rem;
-    right: 2rem;
-    width: 75%; 
+    right: 1rem;
+    width: 78%; 
 }
 .card__heading-span {
     padding: 1rem 1.5rem;
@@ -130,26 +129,28 @@
     box-decoration-break: clone; }
     
 .card__heading-span--1 {
+    font-family: 'Marcellus', serif;
     background-image: linear-gradient(to right bottom,
-     rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+     rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); 
+}
 
 
 .card__details {
-    padding: 3.2rem; }
+    padding: 1rem; }
     
 .card__details ul {
     list-style: none;
     width: 80%;
-    margin: 0 auto; }
+    margin: 0 auto; 
+    margin-bottom: 2rem;
+}
      
 .card__details {
     text-align: center;
     font-size: 1.5rem;
-    padding: 1rem; }
+    padding: 1rem; 
+}
         
-.card__details ul li:not(:last-child) {
-    border-bottom: 1px solid #f7f7f7; }
-  
 .card__cta {
     position: absolute;
     top: 50%;
@@ -164,10 +165,11 @@
     color: #fff;
     margin-bottom: 8.5rem;
 }
-  
+
 .card__project-overview {
     font-size: 2rem;
     text-transform: uppercase; 
+    font-family: 'Marcellus', serif;
 }
   
 .card__project-text {

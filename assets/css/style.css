@@ -13,7 +13,6 @@ html {
 
 body {
     font-family: "Lato", sans-serif;
-    
     font-weight: 400;
     line-height: 1.7;
     color: beige;
@@ -93,10 +92,11 @@ body {
     position: relative;
     margin-top: 3rem;
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 2.8rem;
     margin: 0;
     letter-spacing: 0;
@@ -150,6 +150,16 @@ p {
     text-align: center;
 }
 
+.txt_show{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 2px  #777;
+    font-family: 'Marcellus', serif;
+
+}
+
 img {
     width: 5rem;
     height: auto;
@@ -159,13 +169,11 @@ img {
 
 .icon {
     padding: .5rem;
-    /* background-color: rgba(6, 53, 85, 0.555); */
-    /* background: linear-gradient(to right bottom, 
-     rgba(16, 202, 202, 0.555), #505050de);
-    border-radius: 1.2rem; */
 }
-
-
+.icon-img {
+    -webkit-filter: drop-shadow(3px 3px 3px #4e4e4e);
+    filter: drop-shadow(2px 2px 2px 1px #6fd5bf); 
+}
 
 
 /* CONTACT AREA */
