@@ -109,10 +109,13 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/storefront.png); }
 
 .card__picture--slaytag {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/pri.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/pricecut.png); }
 
 .card__picture--friends {
     background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Friends.png); }  
+
+.card__picture--spongebob {
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/spongebob.png); }  
 
 /* -----------------------------END CARD IMAGES--------------------------------------- */
 .card__heading {
