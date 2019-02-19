@@ -16,4 +16,4 @@ Reach out to me at one of the following places!
 
 * [Portfolio](https://tamtr89.github.io/Tran.Portfolio/) - 💓
 
-###😃 Thank you for watching!
+<h1>😃 Thank you for watching!
