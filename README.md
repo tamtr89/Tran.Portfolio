@@ -13,4 +13,4 @@ Reach out to me at one of the following places!
 
 * [LinkedIn](https://www.linkedin.com/in/tam-tran-2b1296142/)  Profile
 
-<h1>😃 Thank you for watching!
+<h1>😃 Thank you for visiting!
