@@ -117,6 +117,9 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
 .card__picture--spongebob {
     background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/spongebob.png); }  
 
+.card__picture--seafood {
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/seafood.png ); } 
+
 /* -----------------------------END CARD IMAGES--------------------------------------- */
 .card__heading {
     font-weight: 300;
