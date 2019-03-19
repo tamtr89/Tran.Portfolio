@@ -120,6 +120,9 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
 .card__picture--seafood {
     background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/seafood.png ); } 
 
+.card__picture--movieNite {
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/movie.png ); } 
+
 /* -----------------------------END CARD IMAGES--------------------------------------- */
 .card__heading {
     font-weight: 300;
@@ -172,16 +175,16 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
 .card__project-box {
     text-align: center;
     color: #fff;
-    margin-bottom: 8.5rem;
+    margin-bottom: 5rem;
 }
 
 .card__project-overview {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase; 
     font-family: 'Marcellus', serif;
 }
   
 .card__project-text {
-    font-size: 1.4rem;
-    font-weight: 100; 
+    font-size: 1.3rem;
+    font-weight: 100;
 }
