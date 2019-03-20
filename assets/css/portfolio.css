@@ -21,7 +21,6 @@
 
 .card__side--front {
     background-color: beige;
-    color: black;
 }
 
 .card__side--back {
@@ -116,7 +115,7 @@
     font-size: 2.8rem;
     text-transform: uppercase;
     text-align: right;
-    color: #fff;
+    color: #fafafa;
     position: absolute;
     top: 12rem;
     right: 1rem;
@@ -164,7 +163,7 @@
 
 .card__project-box {
     text-align: center;
-    color: #fff;
+    color: #fafafa;
     margin-bottom: 5rem;
 }
 
@@ -187,7 +186,7 @@
         width: 100%;
         height: auto;
         border-radius: 3px;
-        background-color: #fff;
+        background-color: #fafafa;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     }
 
@@ -206,7 +205,9 @@
     }
 
     .card__details {
-        padding: 1rem 3rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+        color: rgb(1, 36, 41);
     }
 
     .card__cta {
@@ -215,7 +216,7 @@
         left: 0;
         transform: translate(0);
         width: 100%;
-        padding: 7rem 4rem 4rem 4rem;
+        padding: 3rem 2rem 2rem 2rem;
     }
 
     .card__project-box {
@@ -227,6 +228,12 @@
     }
 
     .card__project-text {
-        font-size: .8rem;
+        font-size: 1.1rem;
+    }
+    .card__picture {
+        height: 20rem;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     }
 }
