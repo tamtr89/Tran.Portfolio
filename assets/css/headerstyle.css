@@ -35,7 +35,7 @@ svg:not(:root){
 }
 
 .heading-primary {
-    color: #fafafa;
+    color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 4rem;
@@ -159,7 +159,7 @@ svg:not(:root){
 }
 
 .btn--white {
-    background-color: #fafafa;
+    background-color: #fff;
     color: rgb(1, 36, 41);
     font-family: 'Marcellus', serif;
     font-weight: 500;
@@ -179,7 +179,7 @@ svg:not(:root){
 }
 
 .btn--white::after {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .btn:hover::after {

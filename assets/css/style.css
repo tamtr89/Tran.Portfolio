@@ -109,11 +109,6 @@ body {
     max-width: 100%;
 }
 
-@media (max-width: 479px) and (min-width: 240px){
-    .abt-left-thumb {
-    padding: 0 !important;
-}
-
 .section-tittle h2{
     font-family: 'Russo One', sans-serif;
     font-size: 2.9rem;
@@ -155,7 +150,7 @@ p {
 }
 
 .abt-content p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0;
     margin-bottom: 2rem;
@@ -196,6 +191,7 @@ img {
     width: 5rem;
     height: auto;
     margin: 1rem;
+    /* margin-left: 35px; */
 }
 
 .icon {
@@ -206,7 +202,10 @@ img {
     filter: drop-shadow(2px 2px 2px 1px #6fd5bf); 
 }
 
+
 /* CONTACT AREA */
+
+
 .contact-area {
     position: relative;
     border-top: 2px solid grey;
