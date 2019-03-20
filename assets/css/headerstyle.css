@@ -159,13 +159,8 @@ svg:not(:root){
 }
 
 .btn--white {
-<<<<<<< HEAD
     background-color: #fafafa;
     color: rgb(1, 36, 41);
-=======
-    background-color: #fff;
-    color: #777;
->>>>>>> parent of e549112... Added mobile reponsive version
     font-family: 'Marcellus', serif;
     font-weight: 500;
 }

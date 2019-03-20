@@ -187,6 +187,7 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     font-size: 1.3rem;
     font-weight: 100;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 
@@ -245,6 +246,8 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
         -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
         clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     }
+=======
+>>>>>>> parent of e549112... Added mobile reponsive version
 =======
 >>>>>>> parent of e549112... Added mobile reponsive version
 }
