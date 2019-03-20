@@ -1,13 +1,39 @@
+/* .port-grid {
+    margin: 0 auto;
+    padding: 20px;
+} */
+.row-portfolio {
+    max-width: 114rem;
+    margin: 0 auto; 
+}
+
+.row-portfolio:not(:last-child) {
+    margin-bottom: 8rem; }
+  
+.row-portfolio::after {
+    content: "";
+    display: table;
+    clear: both; }
+  
+.row-portfolio [class^="col-"] {
+    float: left; }
+    
+.row-portfolio [class^="col-"]:not(:last-child) {
+    margin-right: 3rem; }
+  
+.row-portfolio .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+
 .card {
     perspective: 100rem;
     -moz-perspective: 100rem;
     position: relative;
-    height: 42rem;
-    margin-bottom: 15px;
+    height: 38rem;
+    margin-bottom: 15px;  
 }
 
 .card__side {
-    height: 42rem;
+    height: 38rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -19,7 +45,7 @@
     box-shadow: 0 1.5rem 4rem rgba(black, .15);
 }
 
-.card__side--front {
+.card__side--front{
     background-color: beige;
 }
 
@@ -28,12 +54,12 @@
 }
 
 .card__side--back-1 {
-    background-image: linear-gradient(to right bottom,
-        #6fd5bf, rgb(6, 53, 85));
+    background-image: linear-gradient(to right bottom, 
+    #6fd5bf, rgb(6, 53, 85));
 }
 
 .card:hover .card__side--front {
-    transform: rotateY(-180deg);
+    transform: rotateY(-180deg);   
 }
 
 .card:hover .card__side--back {
@@ -45,69 +71,56 @@
     height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
-    clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);  */
 }
 
 /* CARD IMAGES */
 .card__picture--travel {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/maps.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/maps.png); }
 
 .card__picture--liribot {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/bot.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/bot.png); }
 
 .card__picture--burger {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/burger.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/burger.png); }
 
 .card__picture--train {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/train.gif);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/train.gif); }
 
 .card__picture--crystal {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/crystal2.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/crystal2.png); }
 
 .card__picture--cinema {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Cinema.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Cinema.png); }
 
 .card__picture--fruit {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/triviafruit.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/triviafruit.png); }
 
 .card__picture--hangman {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/hangman.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/hangman.png); }
 
 .card__picture--explore {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Travel2.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Travel2.png); }
 
 .card__picture--bamazon {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/storefront.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/storefront.png); }
 
 .card__picture--slaytag {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/pricecut.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/pricecut.png); }
 
 .card__picture--friends {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Friends.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Friends.png); }  
 
 .card__picture--spongebob {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/spongebob.png);
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/spongebob.png); }  
 
 .card__picture--seafood {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/seafood.png );
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/seafood.png ); } 
 
 .card__picture--movieNite {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/movie.png );
-}
+    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/movie.png ); } 
 
 /* -----------------------------END CARD IMAGES--------------------------------------- */
 .card__heading {
@@ -119,48 +132,45 @@
     position: absolute;
     top: 12rem;
     right: 1rem;
-    width: 78%;
+    width: 78%; 
 }
-
 .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-}
-
+    box-decoration-break: clone; }
+    
 .card__heading-span--1 {
     font-family: 'Marcellus', serif;
     background-image: linear-gradient(to right bottom,
-        rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+     rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); 
 }
 
 
 .card__details {
-    padding: 1rem;
-}
-
+    padding: 1rem; }
+    
 .card__details ul {
     list-style: none;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-bottom: 2rem;
 }
-
+     
 .card__details {
     text-align: center;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 1rem; 
 }
-
+        
 .card__cta {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    text-align: center;
+    text-align: center; 
 }
-
+  
 .card__project-box {
     text-align: center;
     color: #fafafa;
@@ -168,16 +178,15 @@
 }
 
 .card__project-overview {
-    font-size: 1.8rem;
-    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-transform: uppercase; 
     font-family: 'Marcellus', serif;
-    font-weight: bold;
-    color:rgb(1, 36, 41);
 }
-
+  
 .card__project-text {
     font-size: 1.3rem;
     font-weight: 100;
+<<<<<<< HEAD
 }
 
 
@@ -236,4 +245,6 @@
         -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
         clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     }
+=======
+>>>>>>> parent of e549112... Added mobile reponsive version
 }
