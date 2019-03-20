@@ -1,0 +1,20 @@
+{
+  "name": "tran.portfolio",
+  "version": "1.0.0",
+  "description": "Tam Tran's Porfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamtr89/Tran.Portfolio.git"
+  },
+  "author": "Tam Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamtr89/Tran.Portfolio/issues"
+  },
+  "homepage": "https://github.com/tamtr89/Tran.Portfolio#readme",
+  "devDependencies": {}
+}

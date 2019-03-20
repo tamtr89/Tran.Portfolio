@@ -10,6 +10,12 @@ section {
 }
  /* ==== */
 
+@media only screen and (max-width: 37.5em){
+    section {
+        clip-path: polygon(100% 0, 100% 83%, 8% 90%, 30% 83%, 0 90%, 0 0);
+    }
+}
+
 svg:not(:root){
     overflow: hidden;
 }
@@ -17,8 +23,6 @@ svg:not(:root){
     fill: #424747a8;
     width: 101%;
 }
-
-
 
 .header__logo-box {
     position: absolute;
@@ -50,9 +54,6 @@ svg:not(:root){
     animation-name: moveFocus;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    
-    /* animation-iteration-count: 2; */
-    /* animation-delay: 3s; */
 }
 
 .heading-primary--sub {
@@ -64,25 +65,15 @@ svg:not(:root){
     animation: moveInRight 3s ease-out;
 }
 
-/* @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(10rem);
+@media only screen and (max-width: 37.5em){
+    .heading-primary--main {
+        font-size: 3rem;
+        letter-spacing: 1.5rem;
     }
-
-    60% {
-        transform: skewY(80deg);
+    .heading-primary--sub {
+        font-size: 2rem;
     }
-
-    80% {
-        transform: translateX(-1rem);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-} */
+}
 
 @keyframes moveInRight {
     0% {
@@ -160,7 +151,7 @@ svg:not(:root){
 
 .btn--white {
     background-color: #fff;
-    color: #777;
+    color: rgb(1, 36, 41);
     font-family: 'Marcellus', serif;
     font-weight: 500;
 }
