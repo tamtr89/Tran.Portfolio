@@ -35,7 +35,7 @@ svg:not(:root){
 }
 
 .heading-primary {
-    color: #fff;
+    color: #fafafa;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 4rem;
@@ -50,9 +50,6 @@ svg:not(:root){
     animation-name: moveFocus;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    
-    /* animation-iteration-count: 2; */
-    /* animation-delay: 3s; */
 }
 
 .heading-primary--sub {
@@ -64,25 +61,6 @@ svg:not(:root){
     animation: moveInRight 3s ease-out;
 }
 
-/* @keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(10rem);
-    }
-
-    60% {
-        transform: skewY(80deg);
-    }
-
-    80% {
-        transform: translateX(-1rem);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-} */
 
 @keyframes moveInRight {
     0% {
@@ -159,7 +137,7 @@ svg:not(:root){
 }
 
 .btn--white {
-    background-color: #fff;
+    background-color: #fafafa;
     color: rgb(1, 36, 41);
     font-family: 'Marcellus', serif;
     font-weight: 500;
@@ -179,7 +157,7 @@ svg:not(:root){
 }
 
 .btn--white::after {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 .btn:hover::after {
