@@ -121,6 +121,13 @@ svg:not(:root){
     font-size: 1.6rem;
 }
 
+@media only screen and (max-width: 37.5em){
+    .btn:link {
+        padding: .5rem 1.7rem;
+        font-size: 1.2rem;
+    }
+}
+
 .btn-resume:link{
     text-decoration: none;
 
