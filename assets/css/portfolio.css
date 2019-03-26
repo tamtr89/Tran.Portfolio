@@ -1,10 +1,9 @@
-
 .card {
     perspective: 100rem;
     -moz-perspective: 100rem;
     position: relative;
     height: 38rem;
-    margin-bottom: 15px;  
+    margin-bottom: 15px;
 }
 
 .card__side {
@@ -20,7 +19,8 @@
     box-shadow: 0 1.5rem 4rem rgba(black, .15);
 }
 
-.card__side--front{
+.card__side--front,
+.card__side--back-1 {
     background-color: beige;
 }
 
@@ -28,13 +28,8 @@
     transform: rotateY(180deg);
 }
 
-.card__side--back-1 {
-    background-image: linear-gradient(to right bottom, 
-    #6fd5bf, rgb(6, 53, 85));
-}
-
 .card:hover .card__side--front {
-    transform: rotateY(-180deg);   
+    transform: rotateY(-180deg);
 }
 
 .card:hover .card__side--back {
@@ -46,56 +41,69 @@
     height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
-    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);  */
+    clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
 }
 
 /* CARD IMAGES */
 .card__picture--travel {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/maps.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-travel.png);
+}
 
 .card__picture--liribot {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/bot.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-bot.png);
+}
 
 .card__picture--burger {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/burger.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-burger.png);
+}
 
 .card__picture--train {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/train.gif); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-train.png);
+}
 
 .card__picture--crystal {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/crystal2.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-crystal.png);
+}
 
 .card__picture--cinema {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Cinema.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-moviegif.png);
+}
 
 .card__picture--fruit {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/triviafruit.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-fruits.png);
+}
 
 .card__picture--hangman {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/hangman.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-hangman.png);
+}
 
 .card__picture--explore {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Travel2.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-booking.png);
+}
 
 .card__picture--bamazon {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/storefront.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-shop.png);
+}
 
 .card__picture--slaytag {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/pricecut.png); }
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-slaytags.png);
+}
 
 .card__picture--friends {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/Friends.png); }  
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-friends.png);
+}
 
 .card__picture--spongebob {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/spongebob.png); }  
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-spongebob.png);
+}
 
 .card__picture--seafood {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/seafood.png ); } 
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-seafood.png );
+}
 
 .card__picture--movieNite {
-    background-image: linear-gradient(to right bottom, #6fd5bf, #ff7730), url(../images/movie.png ); } 
+    background-image: linear-gradient(to right bottom, #6fd5bf, rgba(66, 38, 1, 0.637)), url(../images/icon-movie.png );
+}
 
 /* -----------------------------END CARD IMAGES--------------------------------------- */
 .card__heading {
@@ -107,70 +115,77 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     position: absolute;
     top: 12rem;
     right: 1rem;
-    width: 78%; 
+    width: 78%;
 }
+
 .card__heading-span {
-    padding: 1rem 1.5rem;
+    padding: .8rem 1.2rem;
     -webkit-box-decoration-break: clone;
-    box-decoration-break: clone; }
-    
+    box-decoration-break: clone;
+
+}
+
 .card__heading-span--1 {
     font-family: 'Marcellus', serif;
     background-image: linear-gradient(to right bottom,
-     rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); 
+        rgba(197, 255, 122, 0.66), rgba(19, 64, 0, 0.639));
 }
 
 
 .card__details {
-    padding: 1rem; }
-    
+    padding: 1rem;
+}
+
 .card__details ul {
     list-style: none;
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-bottom: 2rem;
 }
-     
+
 .card__details {
     text-align: center;
     font-size: 1.5rem;
-    padding: 1rem; 
+    padding: 1rem;
     color: rgb(1, 36, 41);
 }
-@media only screen and (max-width: 75em){
+
+@media only screen and (max-width: 75em) {
     .card__details {
         font-size: 1.3rem;
     }
 }
-        
+
 .card__cta {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    text-align: center; 
+    text-align: center;
 }
-  
+
 .card__project-box {
     text-align: center;
-    color: #fafafa;
+    color: #212121;
     margin-bottom: 5rem;
 }
 
 .card__project-overview {
     font-size: 1.7rem;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-family: 'Marcellus', serif;
-    color: rgb(1, 36, 41);
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-  
+
 .card__project-text {
     font-size: 1.3rem;
     font-weight: 100;
 }
 
-@media only screen and (max-width: 56.25em){
+@media only screen and (max-width: 56.25em) {
     .card__project-text {
         font-size: 1.2rem;
         font-weight: 100;
@@ -224,5 +239,5 @@ clip-path: polygon(100% 0, 100% 100%, 51% 65%, 0 100%, 0 0);
     .card__project-text {
         font-size: 1.1rem;
     }
-    
+
 }

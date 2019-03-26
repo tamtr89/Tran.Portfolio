@@ -1,8 +1,8 @@
 
 section {
     padding: 0;
-    height: 95vh; 
-    background-image: url(../images/main1280x960.jpg);
+    height: 98vh; 
+    background-image: url(../images/notebook.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -35,10 +35,11 @@ svg:not(:root){
 
 .header__text-box {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 42%;
+    left: 31%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-weight: 500;
 }
 
 .heading-primary {
@@ -53,13 +54,11 @@ svg:not(:root){
     display: block;
     font-size: 5rem;
     font-weight: 500;
-    letter-spacing: 3.5rem;
+    letter-spacing: 2rem;
     animation-name: moveFocus;
     animation-duration: 1s;
     animation-timing-function: ease-out;
 }
-
-
 
 .heading-primary--sub {
     display: block;
@@ -81,7 +80,6 @@ svg:not(:root){
         text-align: center;
     }
 }
-
 
 
 @keyframes moveInRight {
