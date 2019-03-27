@@ -23,6 +23,12 @@
 .card__side--back-1 {
     background-color: beige;
 }
+@media only screen and (max-width: 37.5em){
+    .card__side--back-1 {
+        background-image: linear-gradient(to right bottom,
+        rgba(217, 247, 178, 0.66), rgba(19, 64, 0, 0.639));
+    }
+}
 
 .card__side--back {
     transform: rotateY(180deg);
@@ -128,7 +134,7 @@
 .card__heading-span--1 {
     font-family: 'Marcellus', serif;
     background-image: linear-gradient(to right bottom,
-        rgba(197, 255, 122, 0.66), rgba(19, 64, 0, 0.639));
+        rgba(217, 247, 178, 0.66), rgba(19, 64, 0, 0.639));
 }
 
 
