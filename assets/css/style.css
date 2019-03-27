@@ -221,19 +221,19 @@ img {
 .contact-area {
     position: relative;
     border-top: 2px solid grey;
+    margin-bottom: 5rem;
 }
 
 .contact-area .section-tittle {
     margin-top: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 
 .cnt-left ul li {
-    font-size: 1.7rem;
-    color: whitesmoke;
+    font-size: 1.8rem;
     letter-spacing: 0;
-    line-height: 2.3rem;
-    margin-bottom: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
     font-weight: 500;
     margin-left: 2rem;
 }
@@ -248,6 +248,8 @@ img {
 
 .btn-message {
     background-color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 /* .cnt-form form button {
@@ -289,10 +291,7 @@ img {
 .footer-area {
     padding: 18px 0px;
     position: relative;
-}
-
-.copyright {
-    text-align: right;
+    margin: 0 auto;
 }
 
 .copyright p {
