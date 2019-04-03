@@ -4,6 +4,7 @@
     position: relative;
     height: 38rem;
     margin-bottom: 15px;
+    color: beige;
 }
 
 .card__side {
@@ -26,7 +27,8 @@
 @media only screen and (max-width: 37.5em){
     .card__side--back-1 {
         background-image: linear-gradient(to right bottom,
-        rgba(217, 247, 178, 0.66), rgba(19, 64, 0, 0.639));
+        rgba(68, 124, 156, 0.753), rgba(0, 44, 64, 0.76)); 
+        /* color: beige !important; */
     }
 }
 
@@ -117,7 +119,6 @@
     font-size: 2.8rem;
     text-transform: uppercase;
     text-align: right;
-    color: #fafafa;
     position: absolute;
     top: 12rem;
     right: 1rem;
@@ -134,7 +135,7 @@
 .card__heading-span--1 {
     font-family: 'Marcellus', serif;
     background-image: linear-gradient(to right bottom,
-        rgba(217, 247, 178, 0.66), rgba(19, 64, 0, 0.639));
+    rgba(68, 124, 156, 0.555), rgba(0, 44, 64, 0.555)); 
 }
 
 
@@ -203,7 +204,7 @@
         width: 100%;
         height: auto;
         border-radius: 3px;
-        background-color: #fafafa;
+        background-color: beige;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     }
 
@@ -222,7 +223,8 @@
     }
 
     .card__details {
-        padding: 1rem 3rem;
+        font-size: 1.5rem;
+        color: #212121;
     }
 
     .card__cta {
@@ -243,7 +245,12 @@
     }
 
     .card__project-text {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        color: beige;
+    }
+
+    .card__heading-span--1 {
+        font-size: 2rem;
     }
 
 }
